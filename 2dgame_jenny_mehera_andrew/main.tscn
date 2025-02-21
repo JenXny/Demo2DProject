@@ -1,0 +1,92 @@
+[gd_scene load_steps=8 format=3 uid="uid://bluucq25t71pi"]
+
+[ext_resource type="Texture2D" uid="uid://bkkd76vwppim" path="res://sky.png" id="1_8tmai"]
+[ext_resource type="Texture2D" uid="uid://biunvgwpqeaax" path="res://grass.png" id="2_r7o8p"]
+[ext_resource type="Texture2D" uid="uid://cwk2a6bqg8oy1" path="res://Peach_SSBU.webp" id="3_jmt8g"]
+[ext_resource type="Script" path="res://icon.gd" id="4_p8duw"]
+[ext_resource type="Texture2D" uid="uid://b803r0tnuhl2i" path="res://mushroom.png" id="5_1857x"]
+[ext_resource type="Texture2D" uid="uid://dxauv5o11dyfj" path="res://coin.png" id="6_x6vlf"]
+[ext_resource type="Texture2D" uid="uid://becdwxf38nf1q" path="res://castle.png" id="7_6hwlo"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="sky" type="Sprite2D" parent="."]
+position = Vector2(167.03, 82.8662)
+scale = Vector2(0.64832, 0.316929)
+texture = ExtResource("1_8tmai")
+
+[node name="land" type="Sprite2D" parent="."]
+position = Vector2(167.068, 95.5526)
+scale = Vector2(0.152109, 0.149483)
+texture = ExtResource("2_r7o8p")
+
+[node name="princess2" type="Sprite2D" parent="."]
+position = Vector2(31, 105)
+scale = Vector2(0.0294375, 0.0267598)
+texture = ExtResource("3_jmt8g")
+script = ExtResource("4_p8duw")
+
+[node name="mushroom1" type="Sprite2D" parent="."]
+position = Vector2(290, 146)
+scale = Vector2(0.236482, 0.287272)
+texture = ExtResource("5_1857x")
+
+[node name="mushroom2" type="Sprite2D" parent="."]
+position = Vector2(32, 144)
+scale = Vector2(0.236482, 0.323324)
+texture = ExtResource("5_1857x")
+
+[node name="mushroom3" type="Sprite2D" parent="mushroom2"]
+position = Vector2(207.204, 6.18586)
+scale = Vector2(1, 0.888497)
+texture = ExtResource("5_1857x")
+
+[node name="mushroom4" type="Sprite2D" parent="mushroom2"]
+position = Vector2(401.722, 6.18586)
+scale = Vector2(1, 0.888497)
+texture = ExtResource("5_1857x")
+
+[node name="mushroom5" type="Sprite2D" parent="mushroom2/mushroom4"]
+position = Vector2(211.433, 0)
+scale = Vector2(1, 1)
+texture = ExtResource("5_1857x")
+
+[node name="mushroom6" type="Sprite2D" parent="mushroom2/mushroom4/mushroom5"]
+position = Vector2(236.804, 3.48102)
+scale = Vector2(0.94827, 0.927435)
+texture = ExtResource("5_1857x")
+
+[node name="coin1" type="Sprite2D" parent="mushroom2/mushroom4/mushroom5/mushroom6"]
+position = Vector2(-668.9, -127.615)
+scale = Vector2(0.0234457, 0.0203767)
+texture = ExtResource("6_x6vlf")
+
+[node name="coin2" type="Sprite2D" parent="mushroom2/mushroom4/mushroom5/mushroom6"]
+position = Vector2(-784.843, -135.122)
+scale = Vector2(0.0157639, 0.0192123)
+texture = ExtResource("6_x6vlf")
+
+[node name="coin3" type="Sprite2D" parent="mushroom2/mushroom4/mushroom5/mushroom6"]
+position = Vector2(-468.23, -165.149)
+scale = Vector2(0.0234457, 0.0203767)
+texture = ExtResource("6_x6vlf")
+
+[node name="coin4" type="Sprite2D" parent="mushroom2/mushroom4/mushroom5/mushroom6"]
+position = Vector2(-231.885, -131.368)
+scale = Vector2(0.0234457, 0.0203767)
+texture = ExtResource("6_x6vlf")
+
+[node name="coin5" type="Sprite2D" parent="mushroom2/mushroom4/mushroom5/mushroom6"]
+position = Vector2(13.378, -112.602)
+scale = Vector2(0.0234457, 0.0203767)
+texture = ExtResource("6_x6vlf")
+
+[node name="castle" type="Sprite2D" parent="mushroom2/mushroom4/mushroom5/mushroom6/coin5"]
+position = Vector2(10841.3, -12341.4)
+scale = Vector2(14.7454, 15.332)
+texture = ExtResource("7_6hwlo")
+
+[node name="coin6" type="Sprite2D" parent="mushroom2/mushroom4/mushroom5/mushroom6"]
+position = Vector2(254.182, -127.615)
+scale = Vector2(0.0234457, 0.0203767)
+texture = ExtResource("6_x6vlf")

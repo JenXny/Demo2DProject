@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbf8a1duwr7ha"]
+
+[ext_resource type="Texture2D" uid="uid://3yo1sk1805n3" path="res://bowser.png" id="1_yafk5"]
+[ext_resource type="Texture2D" uid="uid://jw0c5bddlqqo" path="res://castle2.webp" id="2_33mn8"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(26, 23)
+scale = Vector2(0.052, 0.0437209)
+texture = ExtResource("1_yafk5")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(1634.61, 205.851)
+scale = Vector2(3.91744, 3.92382)
+texture = ExtResource("2_33mn8")
