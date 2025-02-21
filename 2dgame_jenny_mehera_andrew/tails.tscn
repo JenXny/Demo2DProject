@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2ouxsnq0ajha"]
+
+[ext_resource type="Texture2D" uid="uid://b0g4pvaeb3t8p" path="res://images/tails.webp" id="1_youls"]
+
+[node name="Tails" type="Node2D"]
+
+[node name="Tails" type="Sprite2D" parent="."]
+position = Vector2(236, 438)
+texture = ExtResource("1_youls")
+
+[node name="Area2D" type="Area2D" parent="Tails"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Tails/Area2D"]
+polygon = PackedVector2Array(148, 147, 114, 104, 107, 7, 137, -24, 163, -92, 162, -143, -45, -164, -168, -61, -188, 63, -156, 141, -51, 167)
