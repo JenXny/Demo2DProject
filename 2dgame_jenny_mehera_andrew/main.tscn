@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://bluucq25t71pi"]
+[gd_scene load_steps=8 format=3 uid="uid://bfxw3soratlrp"]
 
 [ext_resource type="Texture2D" uid="uid://bkkd76vwppim" path="res://sky.png" id="1_8tmai"]
 [ext_resource type="Texture2D" uid="uid://biunvgwpqeaax" path="res://grass.png" id="2_r7o8p"]
@@ -48,7 +48,6 @@ texture = ExtResource("5_1857x")
 
 [node name="mushroom5" type="Sprite2D" parent="mushroom2/mushroom4"]
 position = Vector2(211.433, 0)
-scale = Vector2(1, 1)
 texture = ExtResource("5_1857x")
 
 [node name="mushroom6" type="Sprite2D" parent="mushroom2/mushroom4/mushroom5"]
