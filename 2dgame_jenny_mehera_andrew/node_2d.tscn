@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://chjh26tnj3aap"]
+
+[ext_resource type="Texture2D" uid="uid://dsuh5sv104inr" path="res://tree.png" id="1_sgjtr"]
+[ext_resource type="Texture2D" uid="uid://bjypadhb7afqt" path="res://bird.png" id="2_8dddd"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(322, 275)
+scale = Vector2(0.563636, 0.645808)
+texture = ExtResource("1_sgjtr")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(665.323, -213.686)
+scale = Vector2(0.251407, 0.204419)
+texture = ExtResource("2_8dddd")
